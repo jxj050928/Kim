@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99BE10A5-DA61-41C3-9DD3-2D5E1AAD1141}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JMControlsEx</RootNamespace>
+    <AssemblyName>JMControlsEx</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassTool\Animate.cs" />
+    <Compile Include="ClassTool\ChineseCalendar.cs" />
+    <Compile Include="ClassTool\ColorClass.cs" />
+    <Compile Include="ClassTool\ControlPaintClass.cs" />
+    <Compile Include="ClassTool\Enum.cs" />
+    <Compile Include="ClassTool\Events.cs" />
+    <Compile Include="ClassTool\GetGraphicPath.cs" />
+    <Compile Include="ClassTool\HillangleFun.cs" />
+    <Compile Include="ClassTool\JMDelegate.cs" />
+    <Compile Include="ClassTool\SmoothingModeGraphics.cs" />
+    <Compile Include="ClassTool\TextFormat.cs" />
+    <Compile Include="ClassTool\Win32.cs" />
+    <Compile Include="ClassTool\XmlHelper.cs" />
+    <Compile Include="JMButton\JMButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMButton\JMButtonEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMButton\JMButtonTriangle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMChart\JMCyliChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMChart\JMPieChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMChart\JMPieMainChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMChart\JMPiePaymentChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMCheckBox\JMCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxEX\Frm_DownF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxEX\Frm_DownF.designer.cs">
+      <DependentUpon>Frm_DownF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBoxEX\Frm_DownS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxEX\Frm_DownS.designer.cs">
+      <DependentUpon>Frm_DownS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBoxEX\JMComboxTreeEX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxEX\JMTreeViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\ComboTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\FrmComboTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\FrmComboTree.designer.cs">
+      <DependentUpon>FrmComboTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBoxTree\FrmTreeNodeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\FrmTreeNodeAdd.designer.cs">
+      <DependentUpon>FrmTreeNodeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBoxTree\JMComboTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\JMTreeComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBoxTree\JMTreeComboBoxAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\FrmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\FrmAdd.designer.cs">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBox\FrmSelectComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\FrmSelectComboBox.designer.cs">
+      <DependentUpon>FrmSelectComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBox\FrmSelectEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\FrmSelectEmail.Designer.cs">
+      <DependentUpon>FrmSelectEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBox\JMComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMComboBoxAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMComboBoxButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMDropDownCollection.cs" />
+    <Compile Include="JMComboBox\JMDropDownCollectionEditor.cs" />
+    <Compile Include="JMComboBox\JMDropDownData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMEmailComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMEmailComboBox.Designer.cs">
+      <DependentUpon>JMEmailComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBox\JMLoginComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMLoginComboBox.designer.cs">
+      <DependentUpon>JMLoginComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMComboBox\JMVerifyEMailComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMComboBox\JMVerifyEMailComboBox.designer.cs">
+      <DependentUpon>JMVerifyEMailComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMContextMenuStrip\JMContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMCylinder\CylinderEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMDataGridView\JMDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\FrmDropDownDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\FrmDropDownDate.designer.cs">
+      <DependentUpon>FrmDropDownDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\FrmSelectYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\FrmSelectYear.designer.cs">
+      <DependentUpon>FrmSelectYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\FrmYLMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\FrmYLMonth.Designer.cs">
+      <DependentUpon>FrmYLMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\FrmYLRiQi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\FrmYLRiQi.Designer.cs">
+      <DependentUpon>FrmYLRiQi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\JDateTimePicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JDateTimePictureXS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JDateTimePictureXS.designer.cs">
+      <DependentUpon>JDateTimePictureXS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateImageItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateList.designer.cs">
+      <DependentUpon>JMDateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateTime.designer.cs">
+      <DependentUpon>JMDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateTimeDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JMDateTimeDropDown.Designer.cs">
+      <DependentUpon>JMDateTimeDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDateTime\JMYinLiDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMDateTime\JMYinLiDate.Designer.cs">
+      <DependentUpon>JMYinLiDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDGVMenu\JMDGVMENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDGVMenu\JMDGVMENU.designer.cs">
+      <DependentUpon>JMDGVMENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMDiary\FrmTypeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMDiary\FrmTypeAdd.designer.cs">
+      <DependentUpon>FrmTypeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMForm\FormEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMForm\WindowTools.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMImageButton\JMImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMImageGrid\JMImageGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMLabel\JMLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMLabel\JMLinkLabelImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMLeftMenu\LeftMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMLeftMenu\LeftMenu.Designer.cs">
+      <DependentUpon>LeftMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMLeftMenu\LeftMenuItem.cs" />
+    <Compile Include="JMLeftMenu\LeftMenuItems.cs" />
+    <Compile Include="JMListView\JMListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMMenuForm\JMMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMNumeric\JMNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\CardPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\FrmMainSelectPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMPanel\FrmMainSelectPanel.designer.cs">
+      <DependentUpon>FrmMainSelectPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMPanel\FrmSelectPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMPanel\FrmSelectPanel.designer.cs">
+      <DependentUpon>FrmSelectPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMPanel\HeadPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMMaimPanelComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMMaimPanelComboBox.Designer.cs">
+      <DependentUpon>JMMaimPanelComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMPanel\JMPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelBorderStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelComboBox.Designer.cs">
+      <DependentUpon>JMPanelComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelHead.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelHeadList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelHeadSplit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\JMPanelStep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPanel\PanelRound.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPicture\JMImageItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPicture\JMPictureBoxImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPicture\JPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPicture\JPictureBoxData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMPicture\JPictureBoxItemCollection.cs" />
+    <Compile Include="JMPicture\JPictureBoxItemCollectionEditor.cs" />
+    <Compile Include="JMProgressBar\JMProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMProgressBar\JMProgressBar.designer.cs">
+      <DependentUpon>JMProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMProgressBar\JMProgressKJ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMRadioButton\JMRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTabControl\JMTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTabControl\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTabControl\TabControlSimpleEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\Frm_DownDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\Frm_DownDate.Designer.cs">
+      <DependentUpon>Frm_DownDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMTextBox\JMCalc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMCalc.designer.cs">
+      <DependentUpon>JMCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMTextBox\JMLoginTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMLoginTextBox.designer.cs">
+      <DependentUpon>JMLoginTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMTextBox\JMPwdTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMPwdTextBox.designer.cs">
+      <DependentUpon>JMPwdTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMTextBox\JMRundRandTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMTextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMTextNumCalc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JMTextBox\JMTextNumCalc.designer.cs">
+      <DependentUpon>JMTextNumCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JMToolMenuStrip\JContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMToolMenuStrip\JMSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMToolMenuStrip\JNContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JMToolMenuStrip\JNToolStripProfessionalRenderer.cs" />
+    <Compile Include="JMToolMenuStrip\JToolStripProfessionalRenderer.cs" />
+    <Compile Include="JMTreeGridView\JMTreeGridCell.cs" />
+    <Compile Include="JMTreeGridView\JMTreeGridEvents.cs" />
+    <Compile Include="JMTreeGridView\JMTreeGridNode.cs" />
+    <Compile Include="JMTreeGridView\JMTreeGridNodeCollection.cs" />
+    <Compile Include="JMTreeGridView\JMTreeGridView.cs" />
+    <Compile Include="JPage\JPageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JPage\JPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scrollbar\JScrollbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="JMComboBoxEX\Frm_DownF.resx">
+      <DependentUpon>Frm_DownF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBoxEX\Frm_DownS.resx">
+      <DependentUpon>Frm_DownS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBoxTree\FrmComboTree.resx">
+      <DependentUpon>FrmComboTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBoxTree\FrmTreeNodeAdd.resx">
+      <DependentUpon>FrmTreeNodeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBoxTree\JMTreeComboBox.resx">
+      <DependentUpon>JMTreeComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBoxTree\JMTreeComboBoxAdd.resx">
+      <DependentUpon>JMTreeComboBoxAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\FrmAdd.resx">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\FrmSelectComboBox.resx">
+      <DependentUpon>FrmSelectComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\FrmSelectEmail.resx">
+      <DependentUpon>FrmSelectEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\JMComboBoxAdd.resx">
+      <DependentUpon>JMComboBoxAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\JMEmailComboBox.resx">
+      <DependentUpon>JMEmailComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\JMLoginComboBox.resx">
+      <DependentUpon>JMLoginComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMComboBox\JMVerifyEMailComboBox.resx">
+      <DependentUpon>JMVerifyEMailComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\FrmDropDownDate.resx">
+      <DependentUpon>FrmDropDownDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\FrmSelectYear.resx">
+      <DependentUpon>FrmSelectYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\FrmYLMonth.resx">
+      <DependentUpon>FrmYLMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\FrmYLRiQi.resx">
+      <DependentUpon>FrmYLRiQi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\JDateTimePictureXS.resx">
+      <DependentUpon>JDateTimePictureXS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\JMDateList.resx">
+      <DependentUpon>JMDateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\JMDateTime.resx">
+      <DependentUpon>JMDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\JMDateTimeDropDown.resx">
+      <DependentUpon>JMDateTimeDropDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDateTime\JMYinLiDate.resx">
+      <DependentUpon>JMYinLiDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDGVMenu\JMDGVMENU.resx">
+      <DependentUpon>JMDGVMENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMDiary\FrmTypeAdd.resx">
+      <DependentUpon>FrmTypeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMForm\FormEx.resx">
+      <DependentUpon>FormEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMLeftMenu\LeftMenu.resx">
+      <DependentUpon>LeftMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMMenuForm\JMMenuForm.resx">
+      <DependentUpon>JMMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMPanel\FrmMainSelectPanel.resx">
+      <DependentUpon>FrmMainSelectPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMPanel\FrmSelectPanel.resx">
+      <DependentUpon>FrmSelectPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMPanel\JMMaimPanelComboBox.resx">
+      <DependentUpon>JMMaimPanelComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMPanel\JMPanelComboBox.resx">
+      <DependentUpon>JMPanelComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMProgressBar\JMProgressBar.resx">
+      <DependentUpon>JMProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMTextBox\Frm_DownDate.resx">
+      <DependentUpon>Frm_DownDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMTextBox\JMCalc.resx">
+      <DependentUpon>JMCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMTextBox\JMLoginTextBox.resx">
+      <DependentUpon>JMLoginTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMTextBox\JMPwdTextBox.resx">
+      <DependentUpon>JMPwdTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JMTextBox\JMTextNumCalc.resx">
+      <DependentUpon>JMTextNumCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JPage\JPageControl.resx">
+      <DependentUpon>JPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JMDataGridView\JMControlsEx %282%29.lnk" />
+    <None Include="JMDataGridView\JMControlsEx.lnk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JMTreeNode\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbobtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbobtnD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbobtnO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DHSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firstE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_pf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_vip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jsq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanjiao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shezhi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_Main.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

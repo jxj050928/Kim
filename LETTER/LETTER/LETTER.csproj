@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28869A61-9C33-4840-92CD-A24B1982D56E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LETTER</RootNamespace>
+    <AssemblyName>LETTER</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>fav.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSale.Designer.cs">
+      <DependentUpon>FrmSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mwrf\common.cs" />
+    <Compile Include="mwrf\mifareone.cs" />
+    <Compile Include="Pager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pager.designer.cs">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Main.Designer.cs">
+      <DependentUpon>UC_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uc_Sale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_Sale.Designer.cs">
+      <DependentUpon>Uc_Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="URF-R330.cs" />
+    <Compile Include="Win32_API.cs" />
+    <Compile Include="Uc_Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_Product.Designer.cs">
+      <DependentUpon>Uc_Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uc_People.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_People.Designer.cs">
+      <DependentUpon>Uc_People.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPeople.Designer.cs">
+      <DependentUpon>FrmPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCharge.Designer.cs">
+      <DependentUpon>FrmCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uc_Charge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_Charge.Designer.cs">
+      <DependentUpon>Uc_Charge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uc_Backup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_Backup.Designer.cs">
+      <DependentUpon>Uc_Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpUserPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpUserPwd.Designer.cs">
+      <DependentUpon>FrmUpUserPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductList.Designer.cs">
+      <DependentUpon>FrmProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uc_Sell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uc_Sell.Designer.cs">
+      <DependentUpon>Uc_Sell.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSale.resx">
+      <DependentUpon>FrmSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pager.resx">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC_Main.resx">
+      <DependentUpon>UC_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_Sale.resx">
+      <DependentUpon>Uc_Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_Product.resx">
+      <DependentUpon>Uc_Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_People.resx">
+      <DependentUpon>Uc_People.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPeople.resx">
+      <DependentUpon>FrmPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCharge.resx">
+      <DependentUpon>FrmCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_Charge.resx">
+      <DependentUpon>Uc_Charge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_Backup.resx">
+      <DependentUpon>Uc_Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpUserPwd.resx">
+      <DependentUpon>FrmUpUserPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductList.resx">
+      <DependentUpon>FrmProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uc_Sell.resx">
+      <DependentUpon>Uc_Sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fav.ico" />
+    <Content Include="fav1.ico" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\large_smartart.png" />
+    <None Include="Resources\large_picture.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\close1.jpg" />
+    <None Include="Resources\close.jpg" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\filesave.png" />
+    <None Include="Resources\edit_remove.png" />
+    <None Include="Resources\edit_add.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\Login.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\UserEnter.jpg" />
+    <None Include="Resources\user.jpg" />
+    <None Include="Resources\PassEnter.png" />
+    <None Include="Resources\pass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dal\dal.csproj">
+      <Project>{019FDB7D-6E41-402B-8BA4-0EB08E403673}</Project>
+      <Name>dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JMControlsEx\JMControlsEx.csproj">
+      <Project>{99BE10A5-DA61-41C3-9DD3-2D5E1AAD1141}</Project>
+      <Name>JMControlsEx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

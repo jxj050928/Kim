@@ -1,0 +1,61 @@
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\LETTER.exe
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\LETTER.pdb
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmLogin.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Properties.Resources.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\GenerateResource.read.1.tlog
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\GenerateResource.write.1.tlog
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.exe
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.pdb
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\LETTER.exe.config
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\JMControlsEx.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\JMControlsEx.pdb
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmMain.resources
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\dal.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\DbHeapPer.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\TbColAttribute.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Release\dal.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\LETTER.exe.config
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.exe
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\LETTER.exe
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\LETTER.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\dal.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\JMControlsEx.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\DbHeapPer.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\TbColAttribute.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\dal.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Release\JMControlsEx.pdb
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.csprojResolveAssemblyReference.cache
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmLogin.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmMain.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmSale.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Pager.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Properties.Resources.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.UC_Main.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Sale.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Product.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmProduct.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_People.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmPeople.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmCharge.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Charge.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Backup.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmUpUserPwd.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmProductList.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Sell.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Release\LETTER.csproj.GenerateResource.Cache
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmSale.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Pager.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.UC_Main.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Sale.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Product.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmProduct.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_People.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmPeople.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmCharge.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Charge.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Backup.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmUpUserPwd.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.FrmProductList.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Release\LETTER.Uc_Sell.resources

@@ -1,0 +1,11 @@
+D:\家里项目\诊所\LETTER\dal\bin\Debug\dal.dll
+D:\家里项目\诊所\LETTER\dal\bin\Debug\dal.pdb
+D:\家里项目\诊所\LETTER\dal\obj\Debug\dal.dll
+D:\家里项目\诊所\LETTER\dal\obj\Debug\dal.pdb
+F:\Home Project\诊所\LETTER\dal\bin\Debug\dal.dll
+F:\Home Project\诊所\LETTER\dal\bin\Debug\dal.pdb
+F:\Home Project\诊所\LETTER\dal\bin\Debug\DbHeapPer.dll
+F:\Home Project\诊所\LETTER\dal\bin\Debug\TbColAttribute.dll
+F:\Home Project\诊所\LETTER\dal\obj\Debug\ResolveAssemblyReference.cache
+F:\Home Project\诊所\LETTER\dal\obj\Debug\dal.dll
+F:\Home Project\诊所\LETTER\dal\obj\Debug\dal.pdb

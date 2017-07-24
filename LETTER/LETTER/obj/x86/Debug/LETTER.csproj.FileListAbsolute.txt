@@ -1,0 +1,61 @@
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\LETTER.exe.config
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.exe
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\LETTER.exe
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\LETTER.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\dal.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\JMControlsEx.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\DbHeapPer.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\TbColAttribute.dll
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\dal.pdb
+D:\家里项目\诊所\LETTER\LETTER\bin\Debug\JMControlsEx.pdb
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.csprojResolveAssemblyReference.cache
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmLogin.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmMain.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmSale.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Properties.Resources.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Sale.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Product.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmProduct.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_People.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.csproj.GenerateResource.Cache
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmPeople.resources
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\LETTER.exe.config
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\LETTER.exe
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\LETTER.pdb
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\dal.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\JMControlsEx.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\DbHeapPer.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\TbColAttribute.dll
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\dal.pdb
+F:\Home Project\诊所\LETTER\LETTER\bin\Debug\JMControlsEx.pdb
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmLogin.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmMain.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmSale.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Pager.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Properties.Resources.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Sale.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Product.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmProduct.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_People.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmPeople.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.exe
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.pdb
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Pager.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmCharge.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Charge.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Backup.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmUpUserPwd.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.UC_Main.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmProductList.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.UC_Main.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmCharge.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Charge.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Backup.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmUpUserPwd.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.FrmProductList.resources
+F:\Home Project\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Sell.resources
+D:\家里项目\诊所\LETTER\LETTER\obj\x86\Debug\LETTER.Uc_Sell.resources
